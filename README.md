@@ -1,6 +1,7 @@
 # Phase1Project
 Adrianna Ndubi
 Link to the Slide Presentation: https://prezi.com/view/52OdAswJlmhgs19sfKsx/
+Link to the Slide Presentation: https://prezi.com/view/85IDrNUcd0yWNLFFmP7b/
 
 plt.figure(figsize=(10, 6))
 sns.barplot(x=top_injuries.values, y=top_injuries.index) # Changed top_causes to top_injuries
