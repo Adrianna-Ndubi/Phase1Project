@@ -3,24 +3,18 @@ Adrianna Ndubi
 Link to the Slide Presentation: https://prezi.com/view/52OdAswJlmhgs19sfKsx/
 Link to the Slide Presentation: https://prezi.com/view/85IDrNUcd0yWNLFFmP7b/
 
-plt.figure(figsize=(10, 6))
-sns.barplot(x=top_injuries.values, y=top_injuries.index) # Changed top_causes to top_injuries
-plt.title('Top 10 Severity of Injuries')
-plt.xlabel('Number of Incidents')
-plt.ylabel('Severity of Injuries')
-plt.show()
 ---
 
 # Aviation Accident Data Analysis
 
 ## Overview
 
-This project involves analyzing aviation accident data from the National Transportation Safety Board (NTSB), covering the years 1962 to 2023. The goal is to provide insights to aid the company’s aviation division in making informed decisions regarding aircraft purchases. By identifying trends in accident data and determining high-risk aircraft models, we aim to minimize future risks associated with fleet expansion.
+This project analyzes aviation accident data from the National Transportation Safety Board (NTSB), covering 1962 to 2023. The goal is to provide insights to aid the company’s aviation division in making informed decisions regarding aircraft purchases. By identifying trends in accident data and determining high-risk aircraft models, we aim to minimize future risks associated with fleet expansion.
 
 ## Business Understanding
 
 ### Stakeholders
-The primary stakeholders for this project are the decision-makers in the aviation division of the company, particularly those responsible for fleet management and purchasing new aircraft.
+The primary stakeholders for this project are the decision-makers in the company's aviation division, particularly those responsible for fleet management and purchasing new aircraft.
 
 ### Key Business Questions
 The analysis addresses the following key business questions:
@@ -67,8 +61,4 @@ The dataset used in this analysis was sourced from the National Transportation S
 3. **Weather Conditions**: Adverse weather plays a crucial role in accidents. Aircraft that perform poorly under specific weather conditions should be avoided, and weather-resistant aircraft should be prioritized.
 
 By following these recommendations, the company can make more informed decisions that will reduce risks and improve the overall safety of the fleet.
-
----
-
-**Note:** The placeholders for visualizations (`![...](link-to-your-image)`) should be replaced with actual image URLs or embedded images from your GitHub repository.
 
