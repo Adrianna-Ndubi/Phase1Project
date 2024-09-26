@@ -1,6 +1,13 @@
 # Phase1Project
 Adrianna Ndubi
+Link to the Slide Presentation: https://prezi.com/view/52OdAswJlmhgs19sfKsx/
 
+plt.figure(figsize=(10, 6))
+sns.barplot(x=top_injuries.values, y=top_injuries.index) # Changed top_causes to top_injuries
+plt.title('Top 10 Severity of Injuries')
+plt.xlabel('Number of Incidents')
+plt.ylabel('Severity of Injuries')
+plt.show()
 ---
 
 # Aviation Accident Data Analysis
